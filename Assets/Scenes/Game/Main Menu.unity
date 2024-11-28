@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 870851705}
   - component: {fileID: 870851708}
   m_Layer: 5
-  m_Name: "\u958B\u59CB"
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,7 +1530,7 @@ RectTransform:
   - {fileID: 424676272}
   - {fileID: 823479997}
   m_Father: {fileID: 1598360476}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1733,7 +1733,7 @@ GameObject:
   - component: {fileID: 1059869327}
   - component: {fileID: 1059869326}
   m_Layer: 5
-  m_Name: "\u5546\u57CE"
+  m_Name: ShopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1754,7 @@ RectTransform:
   - {fileID: 1566822852}
   - {fileID: 1563990030}
   m_Father: {fileID: 1598360476}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2108,7 +2108,7 @@ GameObject:
   - component: {fileID: 1430565462}
   - component: {fileID: 1430565461}
   m_Layer: 5
-  m_Name: "\u5F37\u5316"
+  m_Name: UpgradeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 1598360476}
   - component: {fileID: 1598360477}
   m_Layer: 5
-  m_Name: "\u6309\u9215"
+  m_Name: MenuButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2497,8 +2497,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1059869325}
   - {fileID: 870851704}
+  - {fileID: 1059869325}
   - {fileID: 1430565460}
   m_Father: {fileID: 1983711285}
   m_RootOrder: 1
@@ -2517,7 +2517,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1598360475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -2546,7 +2546,7 @@ GameObject:
   - component: {fileID: 1638893671}
   - component: {fileID: 1638893670}
   m_Layer: 5
-  m_Name: "\u80CC\u666F"
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2869,7 +2869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983711285}
   m_Layer: 5
-  m_Name: "\u9996\u9801"
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
